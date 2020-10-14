@@ -1,5 +1,5 @@
-set :application, 'wp-headless'
-set :repo_url, 'git@github.com:aderaaij/wp-headless.git'
+set :application, 'your-app-name'
+set :repo_url, 'git@github.com:user/repository.git'
 
 # Branch options
 # Prompts for the branch name (defaults to current branch)
