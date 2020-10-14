@@ -23,3 +23,8 @@ web/.htaccess
 
 # WP-CLI
 wp-cli.local.yml
+
+## Capistrano deploy files
+config/deploy.rb
+/config/deploy/production.rb
+/config/deploy/staging.rb

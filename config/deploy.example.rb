@@ -9,7 +9,7 @@ set :repo_url, 'git@github.com:aderaaij/wp-headless.git'
 # This could be overridden in a stage config file
 set :branch, :main
 
-set :deploy_to, -> { "/home/91934.cloudwaysapps.com/gfqrxtbxbj/public_html/#{fetch(:application)}" }
+set :deploy_to, -> { "/srv/www/#{fetch(:application)}" }
 
 # Use :debug for more verbose output when troubleshooting
 set :log_level, :info
@@ -17,7 +17,7 @@ set :log_level, :info
 # Apache users with .htaccess files:
 # it needs to be added to linked_files so it persists across deploys:
 # set :linked_files, fetch(:linked_files, []).push('.env', 'web/.htaccess')
-set :linked_files, fetch(:linked_files, []).push('.env', 'web/.htaccess')
+set :linked_files, fetch(:linked_files, []).push('.env')
 set :linked_dirs, fetch(:linked_dirs, []).push('web/app/uploads')
 
 namespace :deploy do
@@ -32,7 +32,7 @@ end
 
 # The above restart task is not run by default
 # Uncomment the following line to run it on deploys if needed
-after 'deploy:publishing', 'deploy:restart'
+# after 'deploy:publishing', 'deploy:restart'
 
 namespace :deploy do
   desc 'Update WordPress template root paths to point to the new release'
@@ -58,4 +58,4 @@ end
 # The above update_option_paths task is not run by default
 # Note that you need to have WP-CLI installed on your server
 # Uncomment the following line to run it on deploys if needed
-after 'deploy:publishing', 'deploy:update_option_paths'
+# after 'deploy:publishing', 'deploy:update_option_paths'
