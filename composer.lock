@@ -4,8 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e39ac108b52c86627ac2acbfd24b4962",
+    "content-hash": "70bd1ff49f0f6467225e42d8586faec8",
     "packages": [
+        {
+            "name": "aderaaij/wp-vercel-deploy-hooks",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aderaaij/wp-vercel-deploy-hooks.git",
+                "reference": "a73b4496d0590038d55f461bbe4804ce93cee91e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aderaaij/wp-vercel-deploy-hooks/zipball/a73b4496d0590038d55f461bbe4804ce93cee91e",
+                "reference": "a73b4496d0590038d55f461bbe4804ce93cee91e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "app/"
+                }
+            },
+            "scripts": {
+                "lint": [
+                    "phpcs --ignore=index.php,vendor,resources,storage,dist --extensions=php --standard=PSR12 ."
+                ]
+            },
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Arden de Raaij",
+                    "email": "a.de.raaij@gmail.com",
+                    "homepage": "https://github.com/aderaaij/"
+                }
+            ],
+            "description": "WordPress starter theme with a modern development workflow",
+            "homepage": "https://github.com/aderaaij/wp-vercel-deploy-hooks",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/aderaaij/wp-vercel-deploy-hooks/issues",
+                "source": "https://github.com/aderaaij/wp-vercel-deploy-hooks/tree/master"
+            },
+            "time": "2020-10-16T20:07:38+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.9.0",
