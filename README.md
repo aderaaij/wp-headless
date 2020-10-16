@@ -32,6 +32,7 @@ capistrano-composer
 
 ### Usage
 
-Deploy: `cap production deploy`
-Rollback: `cap production deploy:rollback`
+- Deploy: `cap production deploy`
+- Rollback: `cap production deploy:rollback`
+
 Composer support is built-in so when you run a deploy, composer install is automatically run. Capistrano has a great deploy flow that you can hook into and extend it.
