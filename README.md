@@ -8,8 +8,8 @@ A [roots/Bedrock](https://github.com/roots/bedrock) based WordPress installation
   - [📦 Requirements](#-requirements)
   - [🛠 Installation](#-installation)
   - [🚀 Deploying](#-deploying)
-    - [Requirements](#requirements)
-    - [Usage](#usage)
+    - [📦 Requirements](#-requirements-1)
+    - [💪 Usage](#-usage)
 
 ## 📃 Description
 
@@ -57,7 +57,7 @@ This install includes the [Bedrock Capistrano](https://github.com/roots/bedrock-
 
 ⚠️ This requires remote `SSH` access to your server. If you don't have `SSH` access, you might be able to try [Capistrano with LFTP](https://coderwall.com/p/m5kpuq/capistrano-ftp-only-hosting-provider), and let me know how it goes 😅
 
-### Requirements
+### 📦 Requirements
 
 - SSH access
 - Ruby >= 1.9
@@ -67,7 +67,7 @@ Required Gems:
 - capistrano (> 3.1.0)
 - capistrano-composer
 
-### Usage
+### 💪 Usage
 
 - Deploy: `cap production deploy`
 - Rollback: `cap production deploy:rollback`
