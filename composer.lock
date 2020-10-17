@@ -4,24 +4,73 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "70bd1ff49f0f6467225e42d8586faec8",
+    "content-hash": "2f208dae55ffdc78d8239a7463884c09",
     "packages": [
         {
-            "name": "aderaaij/wp-vercel-deploy-hooks",
-            "version": "dev-master",
+            "name": "aderaaij/wp-headless-theme",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/aderaaij/wp-vercel-deploy-hooks.git",
-                "reference": "a73b4496d0590038d55f461bbe4804ce93cee91e"
+                "url": "https://github.com/aderaaij/wp-headless-theme.git",
+                "reference": "6e68f78c9da6f38f2ccd3c98dd098cb448195d19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aderaaij/wp-vercel-deploy-hooks/zipball/a73b4496d0590038d55f461bbe4804ce93cee91e",
-                "reference": "a73b4496d0590038d55f461bbe4804ce93cee91e",
+                "url": "https://api.github.com/repos/aderaaij/wp-headless-theme/zipball/6e68f78c9da6f38f2ccd3c98dd098cb448195d19",
+                "reference": "6e68f78c9da6f38f2ccd3c98dd098cb448195d19",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5"
+                "php": "^7.1"
+            },
+            "type": "wordpress-theme",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "app/"
+                }
+            },
+            "scripts": {
+                "lint": [
+                    "phpcs --ignore=index.php,vendor,resources,storage,dist --extensions=php --standard=PSR12 ."
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arden de Raaij",
+                    "email": "a.de.raaij@gmail.com",
+                    "homepage": "https://arden.nl"
+                }
+            ],
+            "description": "WordPress starter theme with a modern development workflow",
+            "homepage": "https://github.com/aderaaij/wp-headless-theme",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/aderaaij/wp-headless-theme/issues",
+                "source": "https://github.com/aderaaij/wp-headless-theme/tree/main"
+            },
+            "time": "2020-10-17T15:46:47+00:00"
+        },
+        {
+            "name": "aderaaij/wp-vercel-deploy-hooks",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aderaaij/wp-vercel-deploy-hooks.git",
+                "reference": "2bc9465fdc36d7b1111b4508ec977e3e4c74c76a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aderaaij/wp-vercel-deploy-hooks/zipball/2bc9465fdc36d7b1111b4508ec977e3e4c74c76a",
+                "reference": "2bc9465fdc36d7b1111b4508ec977e3e4c74c76a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
             },
             "type": "wordpress-plugin",
             "autoload": {
@@ -51,9 +100,9 @@
             ],
             "support": {
                 "issues": "https://github.com/aderaaij/wp-vercel-deploy-hooks/issues",
-                "source": "https://github.com/aderaaij/wp-vercel-deploy-hooks/tree/master"
+                "source": "https://github.com/aderaaij/wp-vercel-deploy-hooks/tree/main"
             },
-            "time": "2020-10-16T20:07:38+00:00"
+            "time": "2020-10-17T13:54:27+00:00"
         },
         {
             "name": "composer/installers",
@@ -1253,6 +1302,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "aderaaij/wp-vercel-deploy-hooks": 20,
+        "aderaaij/wp-headless-theme": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
