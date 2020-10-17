@@ -52,7 +52,7 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wp-graphql/wp-graphql": "^0.13.3",
-    "aderaaij/wp-vercel-deploy-hooks": "master"
+    "aderaaij/wp-vercel-deploy-hooks": "main"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.6",
