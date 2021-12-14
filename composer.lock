@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab17c78f22f12311e578cb983720615a",
+    "content-hash": "375c6d27826ab92d528d4be08b34db03",
     "packages": [
         {
             "name": "aderaaij/wp-headless-theme",
