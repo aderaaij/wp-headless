@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6368547dc4991a53a4c56774493c5008",
+    "content-hash": "ab17c78f22f12311e578cb983720615a",
     "packages": [
         {
             "name": "aderaaij/wp-headless-theme",
@@ -58,22 +58,21 @@
         },
         {
             "name": "aderaaij/wp-vercel-deploy-hooks",
-            "version": "dev-main",
+            "version": "dev-feature/trigger-on-trash",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aderaaij/wp-vercel-deploy-hooks.git",
-                "reference": "fa786ab4fc797c1d38427ca6b79163186a2c88d7"
+                "reference": "1f910df380949ef857b54da3a66fe7da4485da52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aderaaij/wp-vercel-deploy-hooks/zipball/fa786ab4fc797c1d38427ca6b79163186a2c88d7",
-                "reference": "fa786ab4fc797c1d38427ca6b79163186a2c88d7",
+                "url": "https://api.github.com/repos/aderaaij/wp-vercel-deploy-hooks/zipball/1f910df380949ef857b54da3a66fe7da4485da52",
+                "reference": "1f910df380949ef857b54da3a66fe7da4485da52",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -102,9 +101,9 @@
             ],
             "support": {
                 "issues": "https://github.com/aderaaij/wp-vercel-deploy-hooks/issues",
-                "source": "https://github.com/aderaaij/wp-vercel-deploy-hooks/tree/v1.3.0"
+                "source": "https://github.com/aderaaij/wp-vercel-deploy-hooks/tree/feature/trigger-on-trash"
             },
-            "time": "2021-11-03T20:30:03+00:00"
+            "time": "2021-12-14T21:19:41+00:00"
         },
         {
             "name": "composer/installers",
@@ -1278,12 +1277,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "24af7780733bcdb3a22c3377e4318aa9c1945cc5"
+                "reference": "92e217f7d613827eb7545586b3aafc616e878022"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/24af7780733bcdb3a22c3377e4318aa9c1945cc5",
-                "reference": "24af7780733bcdb3a22c3377e4318aa9c1945cc5",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/92e217f7d613827eb7545586b3aafc616e878022",
+                "reference": "92e217f7d613827eb7545586b3aafc616e878022",
                 "shasum": ""
             },
             "conflict": {
@@ -1412,6 +1411,7 @@
                 "in2code/femanager": "<5.5.1|>=6,<6.3.1",
                 "intelliants/subrion": "<=4.2.1",
                 "ivankristianto/phpwhois": "<=4.3",
+                "jackalope/jackalope-doctrine-dbal": "<1.7.4",
                 "james-heinrich/getid3": "<1.9.21",
                 "joomla/archive": "<1.1.10",
                 "joomla/session": "<1.3.1",
@@ -1699,7 +1699,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-14T15:17:22+00:00"
+            "time": "2021-12-14T21:11:48+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
