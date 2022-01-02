@@ -56,7 +56,7 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wp-graphql/wp-graphql": "^1.5.0",
-    "aderaaij/wp-vercel-deploy-hooks": "dev-feature/trigger-on-trash",
+    "aderaaij/wp-vercel-deploy-hooks": "dev-main",
     "aderaaij/wp-headless-theme": "dev-main"
   },
   "require-dev": {

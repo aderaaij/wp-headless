@@ -73,3 +73,8 @@ Required Gems:
 - Rollback: `cap production deploy:rollback`
 
 Composer support is built-in so when you run a deploy, composer install is automatically run.
+
+## Symlinks
+
+Symlink shared upload folders:
+`ln -s /home/91934.cloudwaysapps.com/gfqrxtbxbj/public_html/wp-headless/shared/web/app/uploads /home/master/applications/gfqrxtbxbj/public_html/wp-headless/current/web/app/`
